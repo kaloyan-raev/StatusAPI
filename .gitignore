@@ -1,0 +1,11 @@
+nbproject
+._*
+.~lock.*
+.DS_Store
+.idea
+vendor/
+public/vendor/
+!public/vendor/README.md
+data/cache/*
+!data/cache/.gitkeep
+.vagrant
