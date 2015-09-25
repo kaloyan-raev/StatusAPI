@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "03a42bde8b83ffff370956ed75bde041",
-    "content-hash": "f8bc9c2f3da3e9580e8831251b556e1c",
+    "hash": "73aa7e8e7f70f7c125a6616d02b73d26",
+    "content-hash": "51149fc3a0dba9d70207bfc22cfccc89",
     "packages": [
         {
             "name": "bshaffer/oauth2-server-php",
@@ -4376,6 +4376,68 @@
                 "zf2"
             ],
             "time": "2015-07-15 15:41:59"
+        },
+        {
+            "name": "zfcampus/zf-apigility-documentation-swagger",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zfcampus/zf-apigility-documentation-swagger.git",
+                "reference": "26d1e6b58fd4c33a751432713c61a8465e09c76f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zfcampus/zf-apigility-documentation-swagger/zipball/26d1e6b58fd4c33a751432713c61a8465e09c76f",
+                "reference": "26d1e6b58fd4c33a751432713c61a8465e09c76f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5",
+                "zendframework/zend-eventmanager": "~2.3",
+                "zendframework/zend-mvc": "~2.3",
+                "zendframework/zend-servicemanager": "~2.3",
+                "zendframework/zend-view": "~2.3",
+                "zfcampus/zf-api-problem": "~1.0",
+                "zfcampus/zf-apigility-documentation": "~1.0",
+                "zfcampus/zf-content-negotiation": "~1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.7",
+                "squizlabs/php_codesniffer": "^2.3.1",
+                "zendframework/zend-http": "~2.3",
+                "zendframework/zend-loader": "~2.3",
+                "zendframework/zend-stdlib": "~2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev",
+                    "dev-develop": "1.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZF\\Apigility\\Documentation\\Swagger\\": "src/"
+                },
+                "classmap": [
+                    "Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Apigility API Swagger documentation module",
+            "homepage": "http://apigility.org/",
+            "keywords": [
+                "apigility",
+                "documentation",
+                "module",
+                "swagger",
+                "zend",
+                "zf2"
+            ],
+            "time": "2015-07-15 15:44:52"
         },
         {
             "name": "zfcampus/zf-apigility-provider",
